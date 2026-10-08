@@ -1,0 +1,49 @@
+[
+  {"id": "hr-1", "role": "HR", "domain": "General", "question": "Why do you want to work here specifically, rather than at any similar company?"},
+  {"id": "hr-2", "role": "HR", "domain": "General", "question": "Where do you see yourself in three years, and how does this role fit that plan?"},
+  {"id": "hr-3", "role": "HR", "domain": "General", "question": "What kind of work environment brings out your best performance?"},
+  {"id": "hr-4", "role": "HR", "domain": "General", "question": "How do you handle receiving critical feedback from a manager?"},
+  {"id": "hr-5", "role": "HR", "domain": "General", "question": "What's your expected salary range and why?"},
+  {"id": "hr-6", "role": "HR", "domain": "General", "question": "Why are you leaving (or why did you leave) your current/last position?"},
+  {"id": "hr-7", "role": "HR", "domain": "General", "question": "How do you prioritize when you have multiple deadlines on the same day?"},
+  {"id": "hr-8", "role": "HR", "domain": "General", "question": "What does success look like to you in your first 90 days here?"},
+
+  {"id": "tech-cs-1", "role": "Technical", "domain": "General CS Fundamentals", "question": "What's the time complexity of searching a balanced binary search tree, and why?"},
+  {"id": "tech-cs-2", "role": "Technical", "domain": "General CS Fundamentals", "question": "Explain the difference between a process and a thread."},
+  {"id": "tech-cs-3", "role": "Technical", "domain": "General CS Fundamentals", "question": "What's a hash collision, and how do hash maps typically handle it?"},
+  {"id": "tech-cs-4", "role": "Technical", "domain": "General CS Fundamentals", "question": "When would you choose a linked list over an array?"},
+  {"id": "tech-cs-5", "role": "Technical", "domain": "General CS Fundamentals", "question": "Explain how garbage collection decides an object is no longer reachable."},
+
+  {"id": "tech-py-1", "role": "Technical", "domain": "Python Backend", "question": "What's the difference between a list and a generator in Python, and when would using a generator matter for memory?"},
+  {"id": "tech-py-2", "role": "Technical", "domain": "Python Backend", "question": "Explain the GIL and how it affects CPU-bound multithreaded Python code."},
+  {"id": "tech-py-3", "role": "Technical", "domain": "Python Backend", "question": "Two requests decrement the same inventory count at the same time in your Flask app -- what happens, and how do you prevent overselling?"},
+  {"id": "tech-py-4", "role": "Technical", "domain": "Python Backend", "question": "How would you design rate limiting for a public REST API you're building?"},
+  {"id": "tech-py-5", "role": "Technical", "domain": "Python Backend", "question": "What's the difference between `@staticmethod`, `@classmethod`, and a regular instance method?"},
+
+  {"id": "tech-web-1", "role": "Technical", "domain": "Web Development", "question": "Explain what happens between typing a URL in the browser and the page rendering."},
+  {"id": "tech-web-2", "role": "Technical", "domain": "Web Development", "question": "What's the difference between server-side rendering and client-side rendering, and when would you pick each?"},
+  {"id": "tech-web-3", "role": "Technical", "domain": "Web Development", "question": "How does CORS work, and why does the browser enforce it?"},
+  {"id": "tech-web-4", "role": "Technical", "domain": "Web Development", "question": "How would you optimize a web page that's loading a 5MB unoptimized image on every visit?"},
+  {"id": "tech-web-5", "role": "Technical", "domain": "Web Development", "question": "Explain the difference between `localStorage`, `sessionStorage`, and cookies."},
+
+  {"id": "tech-ds-1", "role": "Technical", "domain": "Data Science / ML", "question": "How would you detect and handle class imbalance in a binary classification dataset?"},
+  {"id": "tech-ds-2", "role": "Technical", "domain": "Data Science / ML", "question": "Explain overfitting and two concrete techniques to reduce it."},
+  {"id": "tech-ds-3", "role": "Technical", "domain": "Data Science / ML", "question": "What's the difference between precision and recall, and when would you optimize for one over the other?"},
+  {"id": "tech-ds-4", "role": "Technical", "domain": "Data Science / ML", "question": "Explain how a vector embedding lets you compare two pieces of text for semantic similarity."},
+  {"id": "tech-ds-5", "role": "Technical", "domain": "Data Science / ML", "question": "How would you validate that a model isn't leaking future information from your training data?"},
+
+  {"id": "tech-db-1", "role": "Technical", "domain": "Databases & SQL", "question": "What's the difference between a LEFT JOIN and an INNER JOIN?"},
+  {"id": "tech-db-2", "role": "Technical", "domain": "Databases & SQL", "question": "Explain database indexing -- what does an index actually speed up, and what's the tradeoff?"},
+  {"id": "tech-db-3", "role": "Technical", "domain": "Databases & SQL", "question": "What does it mean for a transaction to be ACID-compliant?"},
+  {"id": "tech-db-4", "role": "Technical", "domain": "Databases & SQL", "question": "When would you denormalize a schema, and what do you give up by doing it?"},
+  {"id": "tech-db-5", "role": "Technical", "domain": "Databases & SQL", "question": "How would you design a schema to handle a many-to-many relationship, say students and courses?"},
+
+  {"id": "beh-1", "role": "Behavioral", "domain": "General", "question": "Tell me about a time you disagreed with a teammate's technical decision. What happened?"},
+  {"id": "beh-2", "role": "Behavioral", "domain": "General", "question": "Describe a project that failed or fell short. What was your role, and what did you learn?"},
+  {"id": "beh-3", "role": "Behavioral", "domain": "General", "question": "Tell me about a time you had to learn something completely new under a tight deadline."},
+  {"id": "beh-4", "role": "Behavioral", "domain": "General", "question": "Describe a situation where you had to convince others to adopt your idea."},
+  {"id": "beh-5", "role": "Behavioral", "domain": "General", "question": "Tell me about a time you made a mistake that affected others. How did you handle it?"},
+  {"id": "beh-6", "role": "Behavioral", "domain": "General", "question": "Describe a time you had to work with someone whose working style was very different from yours."},
+  {"id": "beh-7", "role": "Behavioral", "domain": "General", "question": "Tell me about a time you took initiative on something nobody asked you to do."},
+  {"id": "beh-8", "role": "Behavioral", "domain": "General", "question": "Describe the most challenging technical problem you've personally solved, end to end."}
+]
