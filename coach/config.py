@@ -25,23 +25,16 @@ class Config:
     HF_API_TOKEN: str = os.getenv("HF_API_TOKEN", "")
     HF_MODEL: str = os.getenv("HF_MODEL", "meta-llama/Llama-3.1-8B-Instruct")
 
+    GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "")
+    GROQ_MODEL: str = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+
     RAG_TOP_K: int = int(os.getenv("RAG_TOP_K", "3"))
     INTERVIEW_LENGTH: int = int(os.getenv("INTERVIEW_LENGTH", "5"))
 
     @classmethod
     def effective_provider(cls) -> str:
-        """
-        Decide which backend actually gets used.
-        Falls back to 'mock' automatically if no real credentials are
-        configured, so the app never hard-crashes when a key is missing --
-        it degrades to an offline demo mode instead.
-        """
         if cls.LLM_PROVIDER == "openai" and cls.OPENAI_API_KEY:
             return "openai"
-        if cls.LLM_PROVIDER == "huggingface" and cls.HF_API_TOKEN:
-            return "huggingface"
-        return "mock"
-
-    @classmethod
-    def has_real_credentials(cls) -> bool:
-        return cls.effective_provider() != "mock"
+        if cls.LLM_PROVIDER == "groq" and cls.GROQ_API_KEY:
+            return "groq"
+        if cls.LLM_PROVIDER == "huggingface" and
